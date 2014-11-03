@@ -9,22 +9,25 @@
       <h1>LYRIDI</h1>
     </div>
     <div class="main">
-    <div class="songmeta">
-      <span class="movie">{{movie}}</span><br>
-      <span class="name">{{name}}</span> <br>
-      <span class="metakey">Singers:</span> {{singers}}<br>
-      <span class="metakey">Composer:</span> {{composer}}<br>
-  <span class="metakey">Lyrics:</span> {{lyrics}}<br>
-  <span class="metakey">Cast:</span> {{cast}}<br>
-    </div>
-    <div class="lyrics">
-      <div class="lyric tamil">
-        {{{lyrics_tamil}}}
+      <div class="songmeta">
+        <span class="movie">{{movie}}</span><br>
+        <span class="name">{{name}}</span> <br>
+        <span class="metakey">Singers:</span> {{singers}}<br>
+        <span class="metakey">Composer:</span> {{composer}}<br>
+        <span class="metakey">Lyrics:</span> {{lyrics}}<br>
+        <span class="metakey">Cast:</span> {{cast}}<br>
       </div>
-      <div class="lyric english">
-        {{{lyrics_english}}}
+      <div class="lyrics">
+        <div class="lyric tamil">
+          {{{lyrics_tamil}}}
+        </div>
+        <div class="lyric english">
+          {{{lyrics_english}}}
+        </div>
       </div>
-    </div>
+      <div class="yt-embed">
+        <iframe width="560" height="315" src="//www.youtube.com/embed/g5KxYJE_9N0" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </body>
 </html>

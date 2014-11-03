@@ -66,3 +66,6 @@ h1 {
 .songmeta .metakey {
   font-weight: bold;
 }
+.yt-embed {
+  margin: 15px 140px;
+}
