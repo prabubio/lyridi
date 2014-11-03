@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Lyridi</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>LYRIDI</h1>
+    </div>
+    <div class="main">
+    <div class="songmeta">
+      <span class="movie">{{movie}}</span><br>
+      <span class="name">{{name}}</span> <br>
+      <span class="metakey">Singers:</span> {{singers}}<br>
+      <span class="metakey">Composer:</span> {{composer}}<br>
+  <span class="metakey">Lyrics:</span> {{lyrics}}<br>
+  <span class="metakey">Cast:</span> {{cast}}<br>
+    </div>
+    <div class="lyrics">
+      <div class="lyric tamil">
+        {{{lyrics_tamil}}}
+      </div>
+      <div class="lyric english">
+        {{{lyrics_tamil}}}
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

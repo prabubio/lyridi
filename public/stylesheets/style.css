@@ -1,0 +1,68 @@
+html,
+head,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #222;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.header {
+  margin: 0;
+  background-color: #0043e1;
+  background-image: url("http://www.harvesterchristian.org/wp-content/uploads/2012/10/SUB_Banner_MusicAcademy_1.jpg");
+  background-position-y: 225px;
+  color: #fff;
+  height: 100px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 40px;
+  font-style: italic;
+  margin: 0 80px;
+  padding-top: 30px;
+}
+.main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 900px;
+}
+.lyrics {
+  height: 100%;
+  padding: 20px 0 20px 55px;
+  overflow: auto;
+}
+.lyric {
+  width: 45%;
+  float: left;
+}
+.lyric .tamil {
+  margin: 0 4% 0 0;
+}
+.songmeta {
+  background-color: #ddd;
+  background-image: url("http://2.bp.blogspot.com/-5CU6SVhM1Js/UzMHlQBNIaI/AAAAAAAAAWo/W_BLmzO_C64/w864-h345-no/kaththi.jpg");
+  color: #fff;
+  background-position-y: -60px;
+  padding: 15px 10px 15px 55px;
+  font-style: italic;
+}
+.songmeta .movie {
+  font-size: 30px;
+  font-weight: bold;
+}
+.songmeta .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.songmeta .metakey {
+  font-weight: bold;
+}
