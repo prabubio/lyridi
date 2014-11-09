@@ -9,7 +9,7 @@
       <h1>LYRIDI</h1>
     </div>
     <div class="main">
-      <div class="songmeta">
+      <div class="songmeta" style="background-image: url('/images/{{image_name}}')">
         <span class="movie">{{movie}}</span><br>
         <span class="name">{{name}}</span> <br>
         <span class="metakey">Singers:</span> {{singers}}<br>
@@ -26,8 +26,9 @@
         </div>
       </div>
       <div class="yt-embed">
-        <iframe width="560" height="315" src="//www.youtube.com/embed/g5KxYJE_9N0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/{{youtube_embed}}" frameborder="0" allowfullscreen></iframe>
       </div>
+      <div id="disqus_thread"></div>
     </div>
   </body>
 </html>
